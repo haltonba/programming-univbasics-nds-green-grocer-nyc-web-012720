@@ -55,7 +55,7 @@ end
 def apply_clearance(cart)
   counter = 0
   unique_cart = consolidate_cart(cart)
-  while counter < unique_cart.length do
+  while counter < cart.length do
     if unique_cart[counter][:clearance] === true
       unique_cart[counter][:price] *= 0.8
       unique_cart[counter][:price].round(2)
