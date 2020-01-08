@@ -40,7 +40,8 @@ def apply_coupons(cart, coupons)
         couponed_item_name_checker = {
           item: coupon_item_name,
           price: coupons[coupon_counter][:cost] / coupons[coupon_counter][:num],
-          count: coupons[coupon_counter][:num],
+          clearance: 
+          count: coupons[coupon_counter][:num]
         }
       end
     end
