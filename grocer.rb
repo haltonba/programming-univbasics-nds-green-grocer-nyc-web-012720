@@ -44,6 +44,7 @@ def apply_coupons(cart, coupons)
           count: coupons[coupon_counter][:num]
         }
       end
+      
     end
     coupon_counter += 1
   end
