@@ -34,7 +34,7 @@ def apply_coupons(cart, coupons)
     couponed_item_name_checker = find_item_by_name_in_collection(coupon_item_name, cart)
     if cart_checker && cart_checker[:count] >= coupons[coupon_counter][:num]
       if couponed_item_name_checker
-        
+        couponed_item_name_checker[:count] 
       end
     end
     coupon_counter += 1
