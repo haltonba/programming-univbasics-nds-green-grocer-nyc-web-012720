@@ -43,6 +43,7 @@ def apply_coupons(cart, coupons)
           clearance: cart_checker[:clearance],
           count: coupons[coupon_counter][:num]
         }
+        cart << couponed_item_name_checker
         
       end
     end
