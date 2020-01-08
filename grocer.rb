@@ -38,7 +38,7 @@ def apply_coupons(cart, coupons)
         cart_checker[:count] -= coupons[coupon_counter][:num]
       else
         couponed_item_name_checker = {
-          item: 
+          item: coupon_item_name
         }
       end
     end
