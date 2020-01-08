@@ -44,7 +44,7 @@ def apply_coupons(cart, coupons)
           count: coupons[coupon_counter][:num]
         }
         cart << couponed_item_name_checker
-        cart_checker[:count] -= 
+        cart_checker[:count] -= coupons[coupon_counter][:num]
       end
     end
     coupon_counter += 1
